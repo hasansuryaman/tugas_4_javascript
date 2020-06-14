@@ -2,11 +2,11 @@ andi = 169
 ben = 171
 cindy = 159
 
-function tinggi_badan(x, y, z) {
+function tinggi_badan(x, y, z){
     if (x > y && x > z && y > z) {
         console.log(x + '\n' + y + '\n' + z)
     }
-    else if (x > y && x > z && y < z) {
+    else if (x > y && x > z && y < z){
         console.log(x + '\n' + z + '\n' + y)
     }
     else if (y > z && y > x && z > x){
