@@ -30,7 +30,7 @@ function tinggi_badan(x, y, z) {
     else if (y > x && x === z){
         console.log(y + '\n' + 'Dua orang berumur ' + x)
     }
-    else if (y < x && x ===z ){
+    else if (y < x && x === z ){
         console.log('Dua orang berumur ' + x + '\n' + y)
     }
     else if (z > x && x === y){
